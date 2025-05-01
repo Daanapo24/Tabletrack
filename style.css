@@ -1,49 +1,64 @@
-
 body {
-    background-color: #0f1618;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    color: white;
     margin: 0;
-    padding: 20px;
-}
-.logo-title {
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    min-height: 100vh;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 .logo {
-    width: 50px;
-    height: 50px;
+    height: 48px;
+    vertical-align: middle;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    max-width: 400px;
-    margin: 30px auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
-.button {
-    background-color: #1d1f1f;
-    padding: 20px;
-    border-radius: 15px;
-    display: flex;
+.card {
+    background: #161b22;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #c9d1d9;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+.card img {
+    height: 40px;
+    margin-bottom: 0.5rem;
+}
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+.settings {
+    background: #21262d;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    display: inline-flex;
     align-items: center;
-    gap: 10px;
-    justify-content: center;
-    transition: background 0.3s;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #c9d1d9;
 }
-.button img {
-    width: 24px;
-    height: 24px;
-}
-.button span {
-    color: #c3ffff;
-    font-size: 16px;
-}
-.button.settings {
-    grid-column: span 2;
-    background-color: #2e2f3e;
-    margin-top: 20px;
+.settings img {
+    height: 20px;
 }
