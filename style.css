@@ -6,24 +6,26 @@ body {
   text-align: center;
   padding: 40px 0;
 }
+
 .container {
   max-width: 500px;
   margin: 0 auto;
 }
+
 .logo {
   width: 120px;
   margin-bottom: 30px;
-  display: block;
 }
+
 .buttons {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 15px;
-  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
+
 .button {
-  display: inline-block;
   background-color: #3cb489;
   color: white;
   text-decoration: none;
@@ -31,9 +33,10 @@ body {
   padding: 20px;
   border-radius: 14px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  width: 200px;
+  width: 140px;
   text-align: center;
 }
+
 .settings-button {
   background-color: #2a2f3b;
   padding: 15px 25px;
