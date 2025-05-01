@@ -1,46 +1,50 @@
+
 body {
     margin: 0;
-    background-color: #0f1a1c;
-    font-family: Arial, sans-serif;
+    background-color: #0f171b;
     color: white;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
+
 .container {
-    margin-top: 30px;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 500px;
 }
+
 .logo {
     width: 120px;
-    margin-bottom: 20px;
+    margin: 0 auto 30px;
+    display: block;
 }
+
 .buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
+
 .button {
-    background-color: #3db48b;
-    border-radius: 12px;
-    padding: 15px 25px;
-    width: 130px;
+    background-color: #3cb489;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 10px;
+    flex: 0 1 45%;
     color: white;
-    text-decoration: none;
     font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
+
 .settings-button {
-    background-color: #2a2f3a;
-    padding: 12px 25px;
+    background-color: #2a2f3b;
+    padding: 15px;
     border-radius: 10px;
-    text-decoration: none;
-    color: white;
+    display: inline-block;
+    margin-top: 10px;
     font-weight: bold;
-}
-.button img {
-    width: 20px;
-    height: 20px;
 }
